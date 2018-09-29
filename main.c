@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: carmenia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vduong <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/21 11:48:56 by carmenia          #+#    #+#             */
-/*   Updated: 2018/08/22 15:43:33 by carmenia         ###   ########.fr       */
+/*   Created: 2018/09/29 11:57:53 by vduong            #+#    #+#             */
+/*   Updated: 2018/09/29 11:57:56 by vduong           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,8 @@
 #include <unistd.h>
 #include <wchar.h>
 
-# define TEST "%zd", LLONG_MAX
+#define TEST	"%zd", LLONG_MAX
+
 int		main(void)
 {
 	unsigned int	i;
